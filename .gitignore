@@ -6,7 +6,4 @@
 *.d
 .cproject
 .project
-Debug
 .settings
-liblpaggreg.so.*
-liblpaggreg.a.*
