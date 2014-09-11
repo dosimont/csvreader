@@ -40,9 +40,9 @@ class CSVIterator
         bool operator==(CSVIterator const& rhs);
         bool operator!=(CSVIterator const& rhs);
     private:
-        istream*       m_str;
-        char separator;
-        CSVRow         m_row;
+        istream*       	m_str;
+        char 			separator;
+        CSVRow          m_row;
 
 };
 
