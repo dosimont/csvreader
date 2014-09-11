@@ -24,6 +24,7 @@ class CSVRow
         size_t size() const;
         void readNextRow(istream& str);
         CSVRow(char separator);
+        CSVRow();
 
     private:
         vector<string>    m_data;

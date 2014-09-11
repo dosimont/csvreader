@@ -36,3 +36,6 @@ void CSVRow::readNextRow(istream& str) {
 
 CSVRow::CSVRow(char separator) : separator(separator){
 }
+
+CSVRow::CSVRow() : separator(','){
+}
